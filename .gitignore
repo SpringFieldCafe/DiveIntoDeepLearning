@@ -1,0 +1,49 @@
+# Local Conda environment and Python caches
+.conda-env/
+.conda-pkgs/
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Downloaded course archive / extracted external materials
+d2l-zh.zip
+d2l-zh/
+
+# Personal experiment records and office lock files
+*.doc
+*.docx
+*.docm
+~$*.doc*
+实验记录/
+实验记录/**
+
+# Local notebooks, outputs, and datasets that may contain personal information
+*.ipynb
+*.csv
+*.xlsx
+*.xls
+*.json
+*.log
+outputs/
+results/
+data/
+
+# Secrets, credentials, local configuration, and machine-specific files
+.condarc-local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+token.json
+*.local.*
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
